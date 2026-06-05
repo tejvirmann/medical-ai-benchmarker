@@ -1,4 +1,5 @@
 # MedBench
+For AI Native Radiology Labs
 
 A neutral, UI-first benchmarking and monitoring platform for clinical AI. Built so that doctors — not data scientists — can evaluate, compare, and monitor AI models on their own patient population.
 
