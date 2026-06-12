@@ -1,3 +1,7 @@
-// Static demo redirect — renders the results page with hardcoded demo data
-// so the "View Sample Report" button on the landing works without a backend call.
-export { default } from "@/app/benchmark/[id]/results/page";
+"use client";
+import { DEMO_RESULTS } from "@/lib/results-types";
+import { ResultsView } from "@/components/results-view";
+
+export default function DemoResultsPage() {
+  return <ResultsView data={DEMO_RESULTS} />;
+}
